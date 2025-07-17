@@ -1,0 +1,9 @@
+pandas==2.2.2
+numpy==1.24.4
+matminer==0.7.6
+matplotlib==3.7.5
+scikit-learn==1.4.2
+networkx==3.2.1
+pymatgen==2023.11.10
+torch==2.2.2
+torch-geometric==2.5.3

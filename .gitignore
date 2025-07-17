@@ -1,0 +1,24 @@
+# Ignorar entornos virtuales
+.venv/
+.venv-safe/
+
+# Ignorar datasets grandes
+**/matbench_mp_e_form.json.gz
+data/*.json.gz
+*.json.gz
+
+# Ignorar dependencias pesadas y temporales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos grandes comunes
+*.dll
+*.lib
+*.exe
+*.so
+
+# Otros
+.DS_Store
+.ipynb_checkpoints/
